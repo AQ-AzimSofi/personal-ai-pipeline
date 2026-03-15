@@ -1,0 +1,9 @@
+{
+  "name": "personal-ai-pipeline",
+  "private": true,
+  "scripts": {
+    "install:all": "cd lambda && npm install && cd ../cdk && npm install && cd ../cli && npm install",
+    "deploy": "cd cdk && npx cdk deploy",
+    "cli": "cd cli && npx tsx src/index.ts"
+  }
+}
