@@ -1,0 +1,12 @@
+{
+  "name": "@personal-ai-pipeline/lambda",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
+    "typescript": "^5.7.0"
+  }
+}
